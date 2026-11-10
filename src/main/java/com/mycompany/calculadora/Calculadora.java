@@ -1,7 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.calculadora;
 
 /**
@@ -10,7 +9,18 @@ package com.mycompany.calculadora;
  */
 public class Calculadora {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    // Suma dos números 
+    public double sumar(double a, double b) {
+        return a + b;
+    }
+    // Resta el segundo número al primero 
+
+    public double restar(double a, double b) {
+        return a - b;
+    }
+    // Multiplica dos números 
+
+    public double multiplicar(double a, double b) {
+        return a * b;
     }
 }
