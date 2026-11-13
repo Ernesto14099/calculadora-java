@@ -33,4 +33,21 @@ public class Calculadora {
         }
         return a / b;
     }
+
+    public double potenciar(double numero1, double numero2) {
+        double resultado = 1.0;
+        
+        for (int i = 0; i < numero1; i++) {
+            resultado *= numero2;
+        }
+        
+        return resultado;
+    }
+    
+   public double modulo(double a, double b) {
+           if (b == 0) {
+        throw new IllegalArgumentException("No se puede calcular el módulo entre cero");
+    }
+    return a % b;
+   }
 }
