@@ -35,6 +35,10 @@ public class Main {
   
         System.out.println( 
             "División: " + calculadora.dividir(numero1, numero2) 
-        ); 
+        );
+        
+        System.out.println( 
+            "Potencia: " + calculadora.potenciar(numero1, numero2)
+        );
     } 
 }
